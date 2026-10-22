@@ -1,0 +1,52 @@
+[
+  {
+    "id": "sandton",
+    "name": "Halden Motor House",
+    "city": "Sandton",
+    "address": "18 Grayston Drive, Sandton",
+    "phone": "011 555 0100",
+    "lat": -26.1076,
+    "lng": 28.0567,
+    "stock": ["trail-01", "commute-02", "cruise-03", "family-04", "sport-05"]
+  },
+  {
+    "id": "menlyn",
+    "name": "Halden Menlyn",
+    "city": "Pretoria",
+    "address": "Menlyn Maine, Pretoria",
+    "phone": "012 555 0140",
+    "lat": -25.7826,
+    "lng": 28.2753,
+    "stock": ["trail-01", "commute-02", "family-04"]
+  },
+  {
+    "id": "century",
+    "name": "Halden Century City",
+    "city": "Cape Town",
+    "address": "Century Boulevard, Century City",
+    "phone": "021 555 0180",
+    "lat": -33.8903,
+    "lng": 18.511,
+    "stock": ["commute-02", "cruise-03", "sport-05"]
+  },
+  {
+    "id": "umhlanga",
+    "name": "Halden Umhlanga",
+    "city": "Durban",
+    "address": "Umhlanga Ridge, Durban",
+    "phone": "031 555 0160",
+    "lat": -29.7277,
+    "lng": 31.0859,
+    "stock": ["trail-01", "commute-02", "cruise-03", "family-04"]
+  },
+  {
+    "id": "walmer",
+    "name": "Halden Walmer",
+    "city": "Gqeberha",
+    "address": "Main Road, Walmer",
+    "phone": "041 555 0120",
+    "lat": -33.9731,
+    "lng": 25.585,
+    "stock": ["family-04"]
+  }
+]

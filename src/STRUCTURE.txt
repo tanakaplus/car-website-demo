@@ -1,0 +1,25 @@
+src/
+  app/
+    favicon.ico
+    globals.css                 Tailwind v4 theme tokens
+    layout.tsx                  Root layout, fonts, and metadata
+    page.tsx                    Home route; mounts IntentSearch on the client
+  components/
+    atoms/
+      Button.tsx                Primary action button
+      SimilarityMeter.tsx       Cosine-similarity readout
+      TextInput.tsx             Single-line text field
+    molecules/
+      CarCard.tsx               One ranked car (make, price, description, score)
+      ModelStatus.tsx           Worker and model-download status
+      SearchBar.tsx             Query field composed with the search button
+    organisms/
+      IntentSearch.tsx          Query state, worker messaging, ranking, results
+  lib/
+    cosine.ts                   Cosine similarity between two embeddings
+    types.ts                    Car records and worker message contracts
+  workers/
+    worker.js                   Transformers.js feature-extraction pipeline
+
+Catalog data lives outside this tree at ../data/cars.json and is imported
+directly by IntentSearch.
